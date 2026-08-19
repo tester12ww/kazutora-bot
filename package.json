@@ -1,0 +1,19 @@
+{
+  "name": "kazutora-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot for Kazutora Community with Components V2 Embeds, setup modals, and verification.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
